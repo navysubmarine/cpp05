@@ -2,10 +2,10 @@
 
 int main()
 {
-    Bureaucrat john("John");
+    Bureaucrat john("John", 14);
     std::cout << "Current grade of " << john.getName() << ": "; 
     std::cout << john.getGrade() << std::endl;
-    john.incGrade();
+    john.decGrade();
     std::cout << "Current grade of " << john.getName() << ": "; 
     std::cout << john.getGrade() << std::endl;
     john.incGrade();
